@@ -1,0 +1,14 @@
+{
+  "name": "docz-v2-mui-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "docz dev",
+    "build": "docz build"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "docz": "^2.0.0-rc.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
