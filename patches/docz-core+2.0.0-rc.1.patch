@@ -1,0 +1,20 @@
+diff --git a/node_modules/docz-core/dist/index.js b/node_modules/docz-core/dist/index.js
+index d80ff2e..15b180c 100644
+--- a/node_modules/docz-core/dist/index.js
++++ b/node_modules/docz-core/dist/index.js
+@@ -532,6 +532,7 @@ const writeGatsbySSR = async () => copyGatsbyConfigFile('gatsby-ssr.js', 'gatsby
+ 
+ const writeGatsbyBrowser = async () => copyGatsbyConfigFile('gatsby-browser.js', 'gatsby-browser.js');
+ 
++const writeGatsbyThemes = async () => copyGatsbyConfigFile('src','src')
+ const createResources = async ctx => {
+   try {
+     copyPkgJSON();
+@@ -544,6 +545,7 @@ const createResources = async ctx => {
+     await writeGatsbyNode();
+     await writeGatsbyBrowser();
+     await writeGatsbySSR();
++    await writeGatsbyThemes();
+   } catch (err) {
+     console.log(err);
+   }
