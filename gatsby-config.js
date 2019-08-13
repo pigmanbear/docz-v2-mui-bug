@@ -1,34 +1,61 @@
+const emoji = require("remark-emoji")
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Docz Material-UI`,
+    description: `Showing Gatsby Component Shadowing.`,
+    author: `Austin Coose`
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    {
+    `gatsby-theme-material-ui`,
+    `gatsby-plugin-react-helmet`, {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
+    `gatsby-plugin-sharp`, {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-component`, {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_self",
+              rel: "noopener noreferrer"
+            }
+          }, {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of the content container
+              // as this plugin uses this as the base for generating different widths of each
+              // image.
+              maxWidth: 590
+            }
+          }
+        ]
+      }
+    }, {
+      resolve: `gatsby-theme-docz`,
+      options: {
+        mdPlugins: [emoji]
+      }
+    }, {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `docz-material-ui-example`,
+        short_name: `example`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#00bab3`,
+        theme_color: `#00bab3`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+      }
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ],
+   // `gatsby-plugin-offline`
+  ]
 }
+
+//mdx

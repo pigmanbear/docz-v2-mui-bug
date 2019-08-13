@@ -1,0 +1,65 @@
+{
+  "config": {
+    "title": "Docz V2 Mui Bug",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "1.0.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "src/pages/gee.mdx",
+      "value": {
+        "name": "Hello world",
+        "route": "/gee",
+        "id": "0dda3ab6e66a51f5849ecb199523df1f",
+        "filepath": "src/pages/gee.mdx",
+        "fullpath": "/Users/austincoose/iCloud Drive (Archive)/Documents/GitHub/docz-v2-mui-bug/src/pages/gee.mdx",
+        "link": "",
+        "slug": "src-pages-gee",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "gee",
+            "depth": 1,
+            "value": "Gee"
+          },
+          {
+            "slug": "hee",
+            "depth": 2,
+            "value": "Hee"
+          },
+          {
+            "slug": "hello",
+            "depth": 1,
+            "value": "hello"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/home.mdx",
+      "value": {
+        "name": "Hello world",
+        "route": "/",
+        "id": "0045f8f98534f65257db769d8f2b8d57",
+        "filepath": "src/pages/home.mdx",
+        "fullpath": "/Users/austincoose/iCloud Drive (Archive)/Documents/GitHub/docz-v2-mui-bug/src/pages/home.mdx",
+        "link": "",
+        "slug": "src-pages-home",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hello-world",
+            "depth": 1,
+            "value": "Hello world"
+          }
+        ]
+      }
+    }
+  ],
+  "props": []
+}

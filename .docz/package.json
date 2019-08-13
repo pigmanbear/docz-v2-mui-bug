@@ -1,0 +1,26 @@
+{
+  "name": "docz-v2-mui-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "postinstall": "patch-package",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "docz": "^2.0.0-rc.1",
+    "docz-core": "^2.0.0-rc.1",
+    "patch-package": "^6.1.2",
+    "postinstall-postinstall": "^2.0.0",
+    "ramda": "^0.26.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "gatsby": "2.13.61",
+    "gatsby-plugin-typescript": "2.1.2",
+    "gatsby-plugin-eslint": "2.0.5",
+    "gatsby-theme-docz": "^2.0.0-rc.1"
+  }
+}

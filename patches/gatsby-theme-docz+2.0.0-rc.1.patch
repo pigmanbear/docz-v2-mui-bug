@@ -1,0 +1,37 @@
+diff --git a/node_modules/gatsby-theme-docz/gatsby-config.js b/node_modules/gatsby-theme-docz/gatsby-config.js
+index 3ba105c..61652b3 100644
+--- a/node_modules/gatsby-theme-docz/gatsby-config.js
++++ b/node_modules/gatsby-theme-docz/gatsby-config.js
+@@ -33,12 +33,32 @@ module.exports = opts => {
+   const mdPlugins = getRemarkPlugins()
+   const hastPlugins = getRehypePlugins()
+ 
++
++
+   return {
+     plugins: [
+       {
+         resolve: 'gatsby-plugin-mdx',
+         options: {
+           extensions: ['.md', '.mdx'],
++          gatsbyRemarkPlugins: [
++            {
++            resolve: `gatsby-remark-component`,
++            },
++            {
++              resolve: "gatsby-remark-external-links",
++              options: {
++                target: "_self",
++                rel: "noopener noreferrer"
++              }
++            },
++            {
++              resolve: `gatsby-remark-images`,
++              options: {
++                maxWidth: 590,
++              },
++            },
++          ],
+           remarkPlugins:
+             config && config.mdPlugins
+               ? config.mdPlugins.concat(mdPlugins)
