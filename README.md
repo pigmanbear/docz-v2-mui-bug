@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # docz v2 Bug Report
 
 This is a reproduction repo for [docz issue #979](https://github.com/pedronauck/docz/issues/979).
@@ -118,4 +117,4 @@ The server starts and displays the home page without any errors.
 
 **See:** [with-gatsby-starter](https://github.com/pigmanbear/docz-v2-mui-bug/tree/with-gatsby-starter)
 
->>>>>>> 1d5027d1804f67b84d33b730f68ab1710cd2930a
+
