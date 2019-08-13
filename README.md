@@ -1,3 +1,13 @@
+## Docz V2 MUI Bug
+
+1. Added a patch package for docz to add gatsby plugins (and working on some changes to make gatsby-plugin-mdx optionally in similar fashion to other gatby themes)
+2. Added gatbsy-plugin-material-ui
+3. Using component Shadowing
+4. Added scheduler as dependency `0.14.0`, based on this [issue](https://github.com/facebook/react/issues/15647#issuecomment-506294838) 
+
+---
+
+**Default Starter Docs Below**
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -23,7 +33,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -32,7 +42,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 

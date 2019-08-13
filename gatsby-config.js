@@ -1,5 +1,6 @@
 const emoji = require("remark-emoji")
 
+
 module.exports = {
   siteMetadata: {
     title: `Docz Material-UI`,
@@ -7,7 +8,6 @@ module.exports = {
     author: `Austin Coose`
   },
   plugins: [
-    `gatsby-theme-material-ui`,
     `gatsby-plugin-react-helmet`, {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -51,10 +51,10 @@ module.exports = {
         background_color: `#00bab3`,
         theme_color: `#00bab3`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       }
     },
-   // `gatsby-plugin-offline`
+    // `gatsby-plugin-offline`
   ]
 }
 

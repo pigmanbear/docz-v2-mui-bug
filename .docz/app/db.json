@@ -1,25 +1,29 @@
 {
   "config": {
-    "title": "Docz V2 Mui Bug",
-    "description": "My awesome app using docz",
+    "title": "Gatsby Starter Default",
+    "description": "A simple starter to get up and developing quickly with Gatsby",
     "menu": [],
-    "version": "1.0.0",
-    "repository": null,
+    "version": "0.1.0",
+    "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
     "native": false,
-    "themeConfig": {},
-    "separator": "-"
+    "themeConfig": {
+      "mode": "dark"
+    },
+    "separator": "-",
+    "files": "./src/docs/*.{md,markdown,mdx}",
+    "base": "/docs/"
   },
   "entries": [
     {
-      "key": "src/pages/gee.mdx",
+      "key": "src/docs/gee.mdx",
       "value": {
         "name": "Hello world",
-        "route": "/gee",
-        "id": "0dda3ab6e66a51f5849ecb199523df1f",
-        "filepath": "src/pages/gee.mdx",
-        "fullpath": "/Users/austincoose/iCloud Drive (Archive)/Documents/GitHub/docz-v2-mui-bug/src/pages/gee.mdx",
-        "link": "",
-        "slug": "src-pages-gee",
+        "route": "/docs/gee",
+        "id": "ea9cb3e61a49e4720575122cddf503cb",
+        "filepath": "src/docs/gee.mdx",
+        "fullpath": "/Users/austincoose/iCloud Drive (Archive)/Documents/GitHub/docz-v2-mui-bug/src/docs/gee.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/docs/gee.mdx",
+        "slug": "src-docs-gee",
         "menu": "",
         "headings": [
           {
@@ -41,21 +45,41 @@
       }
     },
     {
-      "key": "src/pages/home.mdx",
+      "key": "src/docs/home.mdx",
       "value": {
-        "name": "Hello world",
-        "route": "/",
-        "id": "0045f8f98534f65257db769d8f2b8d57",
-        "filepath": "src/pages/home.mdx",
-        "fullpath": "/Users/austincoose/iCloud Drive (Archive)/Documents/GitHub/docz-v2-mui-bug/src/pages/home.mdx",
-        "link": "",
-        "slug": "src-pages-home",
+        "name": "Home",
+        "route": "/docs/home",
+        "id": "8ca8974ed5910c7076dfdbd4b3164432",
+        "filepath": "src/docs/home.mdx",
+        "fullpath": "/Users/austincoose/iCloud Drive (Archive)/Documents/GitHub/docz-v2-mui-bug/src/docs/home.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/docs/home.mdx",
+        "slug": "src-docs-home",
         "menu": "",
         "headings": [
           {
             "slug": "hello-world",
             "depth": 1,
             "value": "Hello world"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/index.mdx",
+      "value": {
+        "name": "Playground",
+        "route": "/docs/",
+        "id": "99b7194908f18e8cb9735d504ce3847e",
+        "filepath": "src/docs/index.mdx",
+        "fullpath": "/Users/austincoose/iCloud Drive (Archive)/Documents/GitHub/docz-v2-mui-bug/src/docs/index.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/src/docs/index.mdx",
+        "slug": "src-docs-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hello-world",
+            "depth": 1,
+            "value": "Hello World"
           }
         ]
       }
