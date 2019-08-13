@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "docz dev",
-    "build": "docz build"
+    "build": "docz build",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@material-ui/core": "^4.2.1",
     "docz": "^2.0.0-rc.1",
     "docz-core": "^2.0.0-rc.1",
     "patch-package": "^6.1.2",
+    "postinstall-postinstall": "^2.0.0",
     "ramda": "^0.26.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }

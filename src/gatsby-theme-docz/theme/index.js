@@ -1,4 +1,3 @@
-import { mergeDeepRight } from "ramda"
 import * as modes from "./modes"
 import prism from './prism'
 
