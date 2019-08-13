@@ -1,6 +1,6 @@
 ## Docz V2 MUI Bug
 
-1. Added a patch package for docz to add gatsby plugins (and working on some changes to make gatsby-plugin-mdx optionally in similar fashion to other gatby themes)
+1. Added a patch package for docz to add gatsby plugins (and working on some changes to make gatsby-plugin-mdx optional in similar fashion to other gatsby themes)
 2. Added gatbsy-plugin-material-ui
 3. Using component Shadowing
 4. Added scheduler as dependency `0.14.0`, based on this [issue](https://github.com/facebook/react/issues/15647#issuecomment-506294838) 
