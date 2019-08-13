@@ -1,3 +1,16 @@
+
+## DOCZ Errors
+
+1. Docz with a docz starter is not copying the theme into the .docz folder
+2. This was taken care of with a quick and dirty patch-package to get component shadowing at least started
+3. The `src/gatsby-theme-**/**/*` glob pattern is not working for watching the shadowed folder either
+4. At least these two issues would need to be resolved for the gatsby themes to work 
+
+**See:** [with-gatsby-starter](https://github.com/pigmanbear/docz-v2-mui-bug/tree/with-gatsby-starter)
+
+---
+
+
 # docz v2 Bug Report
 
 This is a reproduction repo for [docz issue #979](https://github.com/pedronauck/docz/issues/979).
@@ -106,15 +119,7 @@ index.js:2177 hot update failed for module "./.cache/sync-requires.js". Last fil
 
 The server starts and displays the home page without any errors.
 
----
 
-## DOCZ Errors
 
-1. Docz with a docz starter is not copying the theme into the .docz folder
-2. This was taken care of with a quick and dirty patch-package to get component shadowing at least started
-3. The `src/gatsby-theme-**/**/*` glob pattern is not working for watching the shadowed folder either
-4. At least these two issues would need to be resolved for the gatsby themes to work 
-
-**See:** [with-gatsby-starter](https://github.com/pigmanbear/docz-v2-mui-bug/tree/with-gatsby-starter)
 
 
